@@ -1,0 +1,52 @@
+#border {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  /* Style for the inner container */
+  #border2 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for text input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for spacing */
+  br {
+    clear: both;
+  }

@@ -1,0 +1,59 @@
+/* Login.css */
+
+/* Style for the outer container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the login form */
+  .form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for text input fields */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for the login button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Style for the Signup button */
+  .signup-button {
+    background-color: #28a745;
+  }
+  
+  /* Style for buttons on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for spacing */
+  br {
+    clear: both;
+  }
